@@ -16,15 +16,32 @@ This project builds a predictive analytics pipeline to detect glucose spikes in 
 - Model Evaluation (Accuracy, Precision, Recall, F1-Score, ROC-AUC)
 - Feature Importance Analysis
 
-## Model Results
-| Model |               Accuracy |          ROC-AUC  |
+## EDA Highlights
 
-Logistic Regression      | 75.6% |          |0.7546 |
-Random Forest            | 74.6% |          |0.7452 |
-XGBoost                  | 75.3% |          |0.7524 |
+### Glucose Spike Distribution
+![Glucose Spike Distribution](Glucose%20Spike%20Distribution.png)
+
+### Carbohydrate Intake vs Glucose Spike
+![Carb Intake vs Glucose Spike](Carb%20Intake%20vs%20Glucose%20Spike.png)
+
+## Model Results
+
+### Performance Comparison
+![Model Comparison](Model%20Comparison%20table.png)
+
+### ROC Curves
+![ROC Curves](ROC%20Curve.png)
+
+## Key Risk Factors
+
+### Feature Importance
+![Feature Importance](Features%20Importance.png)
 
 ## Key Finding
-Carbohydrate intake was the most important predictor of glucose spikes.
+Carbohydrate intake was the most important predictor of glucose spikes, followed by insulin dose and physical activity.
 
 ## Tools Used
 Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
+
+## Repository
+[View Full Notebook](diabetes_analysis.ipynb)
