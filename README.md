@@ -8,7 +8,6 @@ In this project, I developed a machine learning solution to predict glucose spik
 
 The project demonstrates how predictive analytics can move beyond reporting historical outcomes to supporting proactive healthcare decision-making.
 
----
 
 ## Business Problem
 
@@ -18,7 +17,6 @@ Many elevated glucose events are identified only after they occur, limiting oppo
 
 The objective of this project was to determine whether patient characteristics, nutritional behaviours, and lifestyle factors could be used to accurately predict glucose spikes while identifying the factors most strongly associated with increased risk.
 
----
 
 ## Project Objectives
 
@@ -29,7 +27,6 @@ This project was designed to:
 * Identify the strongest predictors of glucose spike risk.
 * Generate actionable insights to support preventative healthcare interventions.
 
----
 
 ## Dataset
 
@@ -54,7 +51,6 @@ The dataset contains:
 * BMI
 * Pre-Meal Glucose
 
----
 
 ## Methodology
 
@@ -99,7 +95,6 @@ Models were assessed using:
 * F1 Score
 * ROC-AUC
 
----
 
 ## Exploratory Analysis
 
@@ -113,7 +108,6 @@ Models were assessed using:
 
 Exploratory analysis revealed strong relationships between glucose spike occurrence and nutritional behaviours, particularly carbohydrate intake, insulin management, and physical activity levels.
 
----
 
 ## Model Performance
 
@@ -139,7 +133,6 @@ As a result, XGBoost was selected as the preferred model.
 
 ![ROC Curve](ROC%20Curve.png)
 
----
 
 ## Explainable AI (SHAP)
 
@@ -163,7 +156,6 @@ To improve transparency and interpretability, SHAP (SHapley Additive Explanation
 
 SHAP analysis provides transparency into model behaviour and enables healthcare stakeholders to understand not only which patients are at risk, but also the factors driving those predictions.
 
----
 
 ## Business Impact
 
@@ -177,7 +169,6 @@ Insights generated through this analysis could help healthcare organisations:
 
 By shifting healthcare delivery from reactive treatment to proactive intervention, predictive analytics can contribute to improved patient outcomes and more effective care management.
 
----
 
 ## Limitations
 
@@ -188,7 +179,6 @@ While the model demonstrates promising predictive capability, several limitation
 * External validation on independent patient populations was not conducted.
 * Predictive relationships identified by SHAP do not imply causation.
 
----
 
 ## Future Enhancements
 
@@ -198,7 +188,6 @@ While the model demonstrates promising predictive capability, several limitation
 * Streamlit deployment for real-time risk scoring.
 * Cloud-based deployment and monitoring.
 
----
 
 ## Technology Stack
 
@@ -210,7 +199,6 @@ While the model demonstrates promising predictive capability, several limitation
 * Matplotlib
 * Seaborn
 
----
 
 ## Repository Contents
 
